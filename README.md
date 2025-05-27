@@ -1,4 +1,3 @@
-```markdown
 # 🏅 Olympics Data Engineering & BI Pipeline
 
 An end-to-end data engineering pipeline that takes Tokyo Olympics datasets from raw CSVs → PostgreSQL → dbt models → Power BI dashboard, fully containerized with Docker.
@@ -57,8 +56,6 @@ olympics-data-pipeline/
 │   └── load\_to\_postgres.py
 ├── docker-compose.yml
 └── .env
-
-````
 
 ---
 
