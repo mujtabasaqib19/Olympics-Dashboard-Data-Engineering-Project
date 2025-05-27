@@ -1,0 +1,12 @@
+olympics_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost       # ✅ Use localhost if dbt is running outside Docker
+      user: olympic_user
+      password: olympic_pass
+      port: 5432
+      dbname: olympics
+      schema: public
+      threads: 1

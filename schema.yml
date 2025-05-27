@@ -1,0 +1,35 @@
+models:
+  - name: stg_athletes
+    description: "Cleaned staging view of athlete names, NOC and disciplines."
+    columns:
+      - name: name
+        description: "Athlete name"
+        tests:
+          - not_null
+      - name: noc
+        description: "National Olympic Committee"
+        tests:
+          - not_null
+      - name: discipline
+        description: "Sport discipline of the athlete"
+
+  - name: stg_medals
+    description: "Medals summary by NOC from the raw medals table."
+    columns:
+      - name: noc
+        tests: [not_null, unique]
+      - name: gold
+      - name: silver
+      - name: bronze
+      - name: total
+
+  - name: discipline_medal_summary
+    description: "Aggregated medal count by discipline and NOC"
+    columns:
+      - name: discipline
+        tests: [not_null]
+      - name: noc
+        tests: [not_null]
+      - name: total_gold
+      - name: total_silver
+      - name: total_bronze
