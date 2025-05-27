@@ -6,11 +6,11 @@ An end-to-end data engineering pipeline that takes Tokyo Olympics datasets from 
 
 ## 📸 Project Screenshots
 
-### 🔷 Pipeline Architecture
-![Pipeline Overview](Pipeline.png)
-
 ### 📊 Final Dashboard
-![Power BI Dashboard](Dashboard.png)
+![Power BI Dashboard](Assests/Dashboard.png)
+
+### 🔷 Pipeline Architecture
+![Pipeline Overview](Assests/Pipeline.png)
 
 ---
 
