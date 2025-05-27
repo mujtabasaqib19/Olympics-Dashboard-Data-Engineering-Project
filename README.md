@@ -114,7 +114,7 @@ Open `dashboard/olympics_dashboard.pbix` in Power BI and refresh the data.
 
 ## 👨‍💻 Contributors
 
-* **Shehryar Saqib** – Data Engineering, Transformation Modeling, Power BI
+* **Mujtaba Saqib** – Data Engineering, Transformation Modeling, Power BI
 
 ---
 
